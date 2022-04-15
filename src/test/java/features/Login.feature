@@ -15,7 +15,7 @@ Feature: This feature would be used to design the Login page of the application
   @Regression @U_1234
   Scenario: Validate the successful login using test data
     When I click on the Login link
-    And I enter username "abc@xyz.com"
+    And I enter username "defg01@xyz.com"
     And I enter password "Pqr@1234"
     And I click on the login Button
     Then I should be Landed on the home page
@@ -35,7 +35,7 @@ Feature: This feature would be used to design the Login page of the application
 
   Scenario: Validate the negative login using test data
     When I click on the Login link
-    And I enter username "abc@xyz.com"
+    And I enter username "xxyy21@xyz.com"
     And I enter password "Pqr@1234"
     And I click on the login Button
     Then I should get the error message as "The email or password you have entered is invalid."

@@ -138,7 +138,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter username \"abc@xyz.com\"",
+  "name": "I enter username \"defg01@xyz.com\"",
   "keyword": "And "
 });
 formatter.match({
@@ -451,7 +451,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I enter username \"abc@xyz.com\"",
+  "name": "I enter username \"xxyy21@xyz.com\"",
   "keyword": "And "
 });
 formatter.match({
